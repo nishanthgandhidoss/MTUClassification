@@ -1,0 +1,22 @@
+---
+name:  knn
+title: K Nearest Neighbor
+jrs:   "1.1"
+
+items:
+    - name: predicted
+      title: Predicted for test set
+      type: Preformatted
+
+    - name: actual
+      title: Actual for test set
+      type: Preformatted
+      
+    - name: confMat
+      title: Model Evaluation
+      type: Preformatted
+      
+    - name: footer
+      title: About
+      type: Preformatted      
+...

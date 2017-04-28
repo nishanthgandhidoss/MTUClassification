@@ -1,0 +1,42 @@
+title: K Nearest Neighbor
+name: knn
+jus: '2.0'
+stage: 0
+compilerMode: aggressive
+children:
+  - type: VariableSupplier
+    persistentItems: false
+    stretchFactor: 1
+    children:
+      - type: TargetLayoutBox
+        label: Dependent Variable
+        children:
+          - type: VariablesListBox
+            name: dv
+            maxItemCount: 1
+            isTarget: true
+      - type: TargetLayoutBox
+        label: Independent Variables
+        children:
+          - type: VariablesListBox
+            name: idv
+            isTarget: true
+  - type: LayoutBox
+    margin: large
+    children:
+      - type: TextBox
+        name: k
+        format: number
+        inputPattern: '[0-9]+'
+  - type: LayoutBox
+    margin: large
+    children:
+      - type: TextBox
+        name: split
+        format: number
+        inputPattern: '[0-9]+'
+  - type: LayoutBox
+    margin: large
+    children:
+      - type: CheckBox
+        name: isNorm

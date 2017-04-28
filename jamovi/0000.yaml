@@ -1,0 +1,21 @@
+---
+title: MTU Classification
+name: MTUclassification
+version: 0.0.0
+jms: '1.0'
+authors:
+  - Nishanth Gandhidoss, Raghavendran Shankar, Rahul Gowla
+maintainer: Nishanth Gandhidoss <ngandhid@mtu.edu>, Raghavendran Shankar <rshanka1@mtu.edu>, Rahul Gowla <rgowla@mtu.edu>
+date: '2017-04-13'
+type: R
+description: |-
+  This package consist of Machine Learning classification models 
+    build by MTU students of PSY 5220 class of 2016-2017.
+analyses:
+  - title: K Nearest Neighbor
+    name: knn
+    ns: MTUclassification
+    menuGroup: MTUclassification
+    menuTitle: K Nearest Neighbor
+
+...

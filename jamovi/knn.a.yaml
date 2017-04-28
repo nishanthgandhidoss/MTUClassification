@@ -1,0 +1,37 @@
+---
+name:  knn
+title: K Nearest Neighbor
+menuGroup: MTUclassification
+version: '1.0.0'
+jas: '1.1'
+
+options:
+    - name: data
+      type: Data
+    
+    - name: dv
+      title: Dependent Variable
+      type: Variable
+    
+    - name: idv
+      title: Independent Variables
+      type: Variables
+    
+    - name: k
+      title: Number of Levels (K)
+      type: Integer
+      default: 2
+      min: 1
+    
+    - name: split
+      title: Train/test split(50% to 90%)
+      type: Integer
+      default: 75
+      min: 50
+      max: 90
+      
+    - name: isNorm
+      title: Normalize Variables
+      type: Bool
+      default: FALSE
+...
